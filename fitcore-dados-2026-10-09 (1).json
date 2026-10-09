@@ -1,0 +1,133 @@
+{
+  "students": [
+    {
+      "id": "a1",
+      "name": "Ana Souza",
+      "goal": "Emagrecimento",
+      "trainer": "Marcos Vinícius",
+      "status": "Ativo",
+      "target": 12
+    },
+    {
+      "id": "a2",
+      "name": "Pedro Lima",
+      "goal": "Condicionamento",
+      "trainer": "Camila Santos",
+      "status": "Ativo",
+      "target": 12
+    },
+    {
+      "id": "a3",
+      "name": "Beatriz Alves",
+      "goal": "Reabilitação física",
+      "trainer": "Rafael Lima",
+      "status": "Ativo",
+      "target": 8
+    },
+    {
+      "id": "a4",
+      "name": "Lucas Martins",
+      "goal": "Alta performance",
+      "trainer": "Juliana Costa",
+      "status": "Ativo",
+      "target": 16
+    },
+    {
+      "id": "a5",
+      "name": "Mariana Costa",
+      "goal": "Emagrecimento",
+      "trainer": "Marcos Vinícius",
+      "status": "Ativo",
+      "target": 12
+    },
+    {
+      "id": "a6",
+      "name": "Gabriel Rocha",
+      "goal": "Condicionamento",
+      "trainer": "Camila Santos",
+      "status": "Inativo",
+      "target": 12
+    }
+  ],
+  "workouts": [
+    {
+      "id": "w1",
+      "student": "a1",
+      "title": "Treino A • Força e controle",
+      "updated": "2026-10-05",
+      "notes": "Respeitar a execução orientada pelo treinador. Pausar e avisar em caso de dor.",
+      "exercises": [
+        {
+          "name": "Agachamento com halter",
+          "sets": "3 × 12",
+          "rest": "60 s",
+          "cue": "Mantenha o tronco firme e controle a descida."
+        },
+        {
+          "name": "Remada com elástico",
+          "sets": "3 × 12",
+          "rest": "60 s",
+          "cue": "Puxe os cotovelos para trás sem elevar os ombros."
+        },
+        {
+          "name": "Ponte de quadril",
+          "sets": "3 × 15",
+          "rest": "45 s",
+          "cue": "Eleve o quadril sem arquear a lombar."
+        },
+        {
+          "name": "Prancha adaptada",
+          "sets": "3 × 20 s",
+          "rest": "45 s",
+          "cue": "Mantenha o alinhamento indicado pelo treinador."
+        }
+      ]
+    }
+  ],
+  "sessions": [
+    {
+      "id": "s1",
+      "student": "a1",
+      "date": "2026-10-02",
+      "effort": 6
+    },
+    {
+      "id": "s2",
+      "student": "a1",
+      "date": "2026-10-05",
+      "effort": 7
+    },
+    {
+      "id": "s3",
+      "student": "a2",
+      "date": "2026-10-03",
+      "effort": 6
+    },
+    {
+      "id": "s4",
+      "student": "a3",
+      "date": "2026-10-05",
+      "effort": 4
+    }
+  ],
+  "measurements": [
+    {
+      "id": "m1",
+      "student": "a1",
+      "date": "2026-08-03",
+      "weight": 78
+    },
+    {
+      "id": "m2",
+      "student": "a1",
+      "date": "2026-09-01",
+      "weight": 76.8
+    },
+    {
+      "id": "m3",
+      "student": "a1",
+      "date": "2026-10-05",
+      "weight": 75.9
+    }
+  ]
+}
